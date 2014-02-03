@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="author" content="">
+        <title></title>
+         <script src="lib/jquery-ui/js/jquery-1.9.0.min.js"></script>
+         <script src="lib/jquery-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+         <script src="lib/jsapi.js"></script>
+         <link rel="stylesheet" href="../../lib/daterangerpicker/twitter-bootstrap/css/bootstrap.min.css">
+         <script type="text/javascript" src="../../lib/daterangerpicker/twitter-bootstrap/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" media="all" href="lib/daterangerpicker/daterangepicker-bs3.css" />
+   
+         <script type="text/javascript" src="lib/daterangerpicker/moment.js"></script>
+         <script type="text/javascript" src="lib/daterangerpicker/daterangepicker.js"></script>
+         <link rel="stylesheet" href='lib/normalize.css'>
+         <script src="lib/jquery.tmpl.js"></script>
+         <link rel="stylesheet" href='lib/jquery-ui/css/smoothness/jquery-ui-1.10.0.custom.min.css'>
+
+        
+         <!--<script src="lib/jquery.mockjax.js"></script>-->
+
+         <!--<script type="text/javascript" src="https://www.google.com/jsapi"></script>-->
+         <script src="lib/cookie/jquery.cookie.js"></script>
+         <script src="lib/ajaxHooks/ajaxhooks.js"></script>
+
+         <script src="lib/globalize/lib/globalize.js"></script>
+         <script src="lib/webtoolkit.base64.js"></script>
+        
+
+         <script src="dist/production.js"></script>
+         <link rel="stylesheet" href='dist/production.css'>
+         <script type="text/javascript">
+
+         google.load("visualization", "1", {packages:["corechart"]});
+
+          $(function () {
+                    
+
+                if (!window.gensler) {
+                    window.gensler = {};
+                }
+
+                if (!window.gensler.app) {
+                    window.gensler.app = {};
+                }
+
+                if (!window.gensler.app.user) {
+
+                    window.gensler.app.user = JSON.parse($.cookie('gensler-user'));
+                    //console.log('-- id == ', window.gensler.app.user.id);
+                    gensler.app.launch();
+                }
+               
+            });
+         </script>
+    </head>    
+	<body>
+    
+    </body>
+</html>
+
+

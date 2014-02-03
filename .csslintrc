@@ -1,0 +1,13 @@
+{
+    "adjoining-classes": false,
+    "floats": false,
+    "important": false,
+    "duplicate-background-images": false,
+    "box-model": false,
+    "font-faces": false,
+    "font-sizes": false,
+    "box-sizing": false,
+    "zero-units": false,
+    "outline-none": false,
+	"known-properties": false
+}

@@ -1,0 +1,52 @@
+{
+  "name": "js-indexer-monitor",
+  "description": "The indexer monitor is an application for monitoring and diagnosing the health of our indexers",
+  "author": "Brendan Boyd<brendan_boyd@gensler.com>",
+  "main": "server.js",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GenslerAppsPod/js-indexer-monitor.git"
+  },
+  "maintainers": [
+    {
+      "name": "Brendan Boyd",
+      "email": "brendan_boyd@gensler.com"
+    },
+    {
+      "name": "Karthiga T",
+      "email": "karthiga_t@gensler.com"
+    },
+    {
+      "name": "Sharad Biradar",
+      "email": "sharad_biradar@gensler.com"
+    }
+  ],
+  "dependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-concat": "0.2.x",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-clean": "0.4.x",
+    "config": "0.4.x",
+    "restify": "2.4.x",
+    "http-proxy": "0.10.x",
+    "cookies": "0.3.x",
+    "entities": "~0.3.0",
+    "bunyan": "~0.21.4",
+    "dateformat": "~1.0.6-1.2.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-csslint": "0.1.x",
+    "grunt-contrib-jshint": "0.4.x",
+    "grunt-jsbeautifier": "0.1.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "keywords": [
+    "gensler",
+    "node",
+    "rest"
+  ]
+}

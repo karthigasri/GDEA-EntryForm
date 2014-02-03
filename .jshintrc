@@ -1,0 +1,25 @@
+{
+    "curly": true,
+    "eqeqeq": true,
+    "immed": false,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "sub": true,
+    "undef": true,
+    "boss": true,
+    "eqnull": true,
+    "node": true,
+    "browser": true,
+    "jquery": true,
+    "smarttabs": true,
+    "strict": false,
+    "devel": true,
+    "globals": {
+        "exports": true,
+        "Globalize": true,
+        "moment": true,
+        "google": true,
+        "Base64": true
+    }
+}
